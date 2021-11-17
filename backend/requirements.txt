@@ -1,0 +1,6 @@
+google-auth-oauthlib
+google-auth
+flask
+mongoengine
+pyjwt
+pymongo[srv]
