@@ -8,7 +8,7 @@ class User(Document):
     uuid=UUIDField()
     username=StringField(required=True, max_length=100)
     password=StringField(required=True, max_length=100, default="LOGGEDINWITHGOOGLE")
-    profile_pic=ImageField()
-    emailId=EmailField()
+    picture=StringField(required=True)
+    email=EmailField()
 
   
